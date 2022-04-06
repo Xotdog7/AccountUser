@@ -1,0 +1,29 @@
+.itemsRow {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-top: 20px;
+}
+.item {
+  background-color: #ebdcb2;
+  width: 250px;
+  border-radius: 10px;
+  border: 1.8px solid#C9A66B;
+  text-align: center;
+  padding: 15px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  img {
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+  }
+  span {
+    padding: 5px;
+    max-width: 200px;
+    margin: auto;
+    display: block;
+  }
+}

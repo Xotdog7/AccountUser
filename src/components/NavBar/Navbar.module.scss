@@ -1,0 +1,21 @@
+.left {
+  padding: 10px;
+  li {
+    list-style-type: none;
+    padding: 10px;
+    padding-right: 10px;
+    border-right: 1.8px solid#C9A66B;
+
+  }
+  button {
+    background-color: #ebdcb2;
+    color: #662e1c;
+    border: 1.8px solid#C9A66B;
+    border-radius: 5px;
+  }
+
+  .none {
+    text-decoration: none;
+    color: #c9a66b;
+  }
+}
