@@ -15,6 +15,7 @@ const Dropdown = () => {
       <div className={style.dropImg}>
         <img src={user?.avatar} alt={user?.login} />
       </div>
+
       <ul className={style["dropdown--content"]}>
         <li>
           <button>Profile</button>

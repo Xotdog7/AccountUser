@@ -30,7 +30,7 @@ const MoviesList: React.FC<Props> = ({ movies }) => {
     <div>
       <div className={style.itemsRow}>{listMovie}</div>
 
-      <h1>любимые фильмы:</h1>
+      <h1>Favorite film:</h1>
 
       <div className={style.itemsRow}>{favoiteMovie}</div>
     </div>

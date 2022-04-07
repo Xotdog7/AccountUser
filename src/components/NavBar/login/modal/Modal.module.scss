@@ -12,17 +12,17 @@
   pointer-events: none;
   transition: 0.5s;
 
-  .login--avatar {
+  .modal--avatar {
     width: 100px;
     margin: 0 auto;
   }
-  .login--user {
+  .modal--user {
     padding: 10px 0;
     text-align: center;
   }
 
-  .login--button {
-    width: 65px;
+  .modal--button {
+    width: 80px;
     margin: 0 auto;
   }
   &.active {

@@ -6,7 +6,7 @@ import {
 import style from "./Modal.module.scss";
 
 const ModalInfo = () => {
-  const { login, user, loginUser, logoutUser } = useContext(
+  const { user, loginUser, logoutUser } = useContext(
     UserContext
   ) as UserContextType;
 
@@ -15,23 +15,19 @@ const ModalInfo = () => {
     logoutUser(true);
   };
 
-  const button = !!user?.login ? (
-    <button onClick={logout}>Sign in</button>
-  ) : (
-    <h1>Db</h1>
-  );
-
   return (
     <div>
       {!!user?.login ? (
         <>
-          <div className={style["login--avatar"]}>
+          <div className={style["modal--avatar"]}>
             <img src={user?.avatar} alt={user?.login} />
           </div>
-          <div
-            className={style["login--user"]}
-          >{`Войти как ${user?.login}`}</div>
-          <div className={style["login--button"]}>{button}</div>{" "}
+
+          <div className={style["modal--user"]}>Войти как {user.login}</div>
+
+          <div className={style["modal--button"]}>
+            <button onClick={logout}>Sign in</button>
+          </div>
         </>
       ) : (
         <span>Account not found</span>

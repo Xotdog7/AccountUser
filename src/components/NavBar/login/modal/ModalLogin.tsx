@@ -7,15 +7,15 @@ import style from "./Modal.module.scss";
 import ModalInfo from "./ModalInfo";
 
 const ModalLogin = () => {
-  const { login, user } = useContext(UserContext) as UserContextType;
+  const { login } = useContext(UserContext) as UserContextType;
   return (
     <div
       className={
         login ? style.content + " " + style.activeContant : style.content
       }
       onClick={(e) => e.stopPropagation()}
-      >
-        <ModalInfo />
+    >
+      <ModalInfo />
     </div>
   );
 };

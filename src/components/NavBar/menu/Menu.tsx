@@ -7,12 +7,12 @@ const Menu = () => {
     <div>
       <li>
         <Link className={style.none} to="/actor">
-          Актеры
+          Actor
         </Link>
       </li>
       <li>
         <Link className={style.none} to="/movie">
-          Фильмы
+          Film
         </Link>
       </li>
     </div>
