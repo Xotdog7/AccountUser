@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Xotdog7/AccountUser.git/static/css/main.a04e7851.css",
-    "main.js": "/Xotdog7/AccountUser.git/static/js/main.a5dae0c5.js",
-    "index.html": "/Xotdog7/AccountUser.git/index.html",
-    "main.a04e7851.css.map": "/Xotdog7/AccountUser.git/static/css/main.a04e7851.css.map",
-    "main.a5dae0c5.js.map": "/Xotdog7/AccountUser.git/static/js/main.a5dae0c5.js.map"
+    "main.css": "/AccountUser/static/css/main.a04e7851.css",
+    "main.js": "/AccountUser/static/js/main.229940c5.js",
+    "index.html": "/AccountUser/index.html",
+    "main.a04e7851.css.map": "/AccountUser/static/css/main.a04e7851.css.map",
+    "main.229940c5.js.map": "/AccountUser/static/js/main.229940c5.js.map"
   },
   "entrypoints": [
     "static/css/main.a04e7851.css",
-    "static/js/main.a5dae0c5.js"
+    "static/js/main.229940c5.js"
   ]
 }
