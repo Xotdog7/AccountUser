@@ -1,15 +1,13 @@
 {
   "files": {
-    "main.css": "/Xotdog7/AccountUser.git/static/css/main.a04e7851.css",
-    "main.js": "/Xotdog7/AccountUser.git/static/js/main.59d2947f.js",
-    "static/js/787.7fac82dc.chunk.js": "/Xotdog7/AccountUser.git/static/js/787.7fac82dc.chunk.js",
-    "index.html": "/Xotdog7/AccountUser.git/index.html",
-    "main.a04e7851.css.map": "/Xotdog7/AccountUser.git/static/css/main.a04e7851.css.map",
-    "main.59d2947f.js.map": "/Xotdog7/AccountUser.git/static/js/main.59d2947f.js.map",
-    "787.7fac82dc.chunk.js.map": "/Xotdog7/AccountUser.git/static/js/787.7fac82dc.chunk.js.map"
+    "main.css": "/DarHW3/static/css/main.a04e7851.css",
+    "main.js": "/DarHW3/static/js/main.edfaa60f.js",
+    "index.html": "/DarHW3/index.html",
+    "main.a04e7851.css.map": "/DarHW3/static/css/main.a04e7851.css.map",
+    "main.edfaa60f.js.map": "/DarHW3/static/js/main.edfaa60f.js.map"
   },
   "entrypoints": [
     "static/css/main.a04e7851.css",
-    "static/js/main.59d2947f.js"
+    "static/js/main.edfaa60f.js"
   ]
 }
