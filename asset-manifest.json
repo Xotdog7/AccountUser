@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/DarHW3/static/css/main.a04e7851.css",
-    "main.js": "/DarHW3/static/js/main.5e4adfe4.js",
-    "index.html": "/DarHW3/index.html",
-    "main.a04e7851.css.map": "/DarHW3/static/css/main.a04e7851.css.map",
-    "main.5e4adfe4.js.map": "/DarHW3/static/js/main.5e4adfe4.js.map"
+    "main.css": "/Xotdog7/AccountUser.git/static/css/main.a04e7851.css",
+    "main.js": "/Xotdog7/AccountUser.git/static/js/main.a5dae0c5.js",
+    "index.html": "/Xotdog7/AccountUser.git/index.html",
+    "main.a04e7851.css.map": "/Xotdog7/AccountUser.git/static/css/main.a04e7851.css.map",
+    "main.a5dae0c5.js.map": "/Xotdog7/AccountUser.git/static/js/main.a5dae0c5.js.map"
   },
   "entrypoints": [
     "static/css/main.a04e7851.css",
-    "static/js/main.5e4adfe4.js"
+    "static/js/main.a5dae0c5.js"
   ]
 }
