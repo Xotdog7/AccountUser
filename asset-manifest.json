@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/DarHW3/static/css/main.a04e7851.css",
-    "main.js": "/DarHW3/static/js/main.edfaa60f.js",
+    "main.js": "/DarHW3/static/js/main.5e4adfe4.js",
     "index.html": "/DarHW3/index.html",
     "main.a04e7851.css.map": "/DarHW3/static/css/main.a04e7851.css.map",
-    "main.edfaa60f.js.map": "/DarHW3/static/js/main.edfaa60f.js.map"
+    "main.5e4adfe4.js.map": "/DarHW3/static/js/main.5e4adfe4.js.map"
   },
   "entrypoints": [
     "static/css/main.a04e7851.css",
-    "static/js/main.edfaa60f.js"
+    "static/js/main.5e4adfe4.js"
   ]
 }
