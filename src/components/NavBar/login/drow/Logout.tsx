@@ -3,29 +3,30 @@ import {
   UserContext,
   UserContextType,
 } from "../../../Context/userHW5/UserContext";
-import style from "./Dropdown.module.scss";
-const Dropdown = () => {
+import style from "./Logout.module.scss";
+const Logout = () => {
+    const avatar = {}
   const { user, logoutUser } = useContext(UserContext) as UserContextType;
 
-  const logout = () => {
-    logoutUser(false);
-  };
+
   return (
     <div className={style.dropdown}>
-      <span className={style.dropImg}>
+      <div className={style.dropImg}>
         <img src={user?.avatar} alt={user?.login} />
-      </span>
-
+      </div>
       <ul className={style["dropdown--content"]}>
         <li>
-          <button>Profile</button>
+          <a href="/das" onClick={(e) => e.preventDefault()}>
+            Profile
+          </a>
         </li>
         <li>
-          <button onClick={logout}>Logout</button>
+          <a href="">logout</a>
         </li>
+        
       </ul>
     </div>
   );
 };
 
-export default Dropdown;
+export default Logout;
