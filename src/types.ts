@@ -1,21 +1,25 @@
 import { ReactChild, ReactNode } from "react";
 
+export interface IState {
+  movies: Movie[];
+  actors: Actor[];
+}
+
 export interface Movie {
   id: number;
   title: string | undefined;
   description: string | undefined;
   duration: number | undefined;
   image: string | undefined;
-  favorite?: boolean;
+  trailer: string;
 }
 
 export interface Actor {
-  id: number;
-  name: string;
-  dateOfBirth: string;
-  film: string;
-  question: string;
-  answer: string;
+  objectID: string;
+  name: string| undefined;
+  rating: number| undefined;
+  alternative_name: string| undefined;
+  image_path: string| undefined;
 }
 
 export interface User {

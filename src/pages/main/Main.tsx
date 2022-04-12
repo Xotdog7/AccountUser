@@ -3,6 +3,9 @@ import Content from "../../components/Content/Content";
 import Navbar from "../../components/NavBar/Navbar";
 import "./Main.scss";
 const Main = () => {
+
+  
+  
   return (
     <>
       <div className="main">

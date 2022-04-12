@@ -1,18 +1,21 @@
 import React, { FC } from "react";
-import { Actor } from "../../../types";
+import { Actor } from "../../../../types";
 import ActorItem from "../actorItem/ActorItem";
-import style from "../Content.module.scss";
+import style from "../../Content.module.scss";
 
 type Props = {
   actors: Actor[];
 };
 const ActorList: FC<Props> = ({ actors }) => {
+
+  const actor = actors.map((actor) => (
+    <ActorItem key={actor.objectID} actor={actor} />
+  ))
+
   return (
     <div>
       <div className={style.itemsRow}>
-        {actors.map((actor) => (
-          <ActorItem key={actor.id} actor={actor} />
-        ))}
+        {actor}
       </div>
     </div>
   );
