@@ -1,6 +1,6 @@
 import React from "react";
-import UserContextProvider from "../Context/userHW5/UserContextProvider";
-import Login from "./login/Login";
+import UserContextProvider from "../../components/Context/userHW5/UserContextProvider";
+import Login from "../../components/login/Login";
 import Menu from "./menu/Menu";
 import style from './Navbar.module.scss'
 

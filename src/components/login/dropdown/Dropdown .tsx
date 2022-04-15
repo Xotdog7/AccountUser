@@ -1,8 +1,6 @@
 import React, { useContext } from "react";
-import {
-  UserContext,
-  UserContextType,
-} from "../../../Context/userHW5/UserContext";
+import { UserContext, UserContextType } from "../../Context/userHW5/UserContext";
+
 import style from "./Dropdown.module.scss";
 const Dropdown = () => {
   const { user, logoutUser } = useContext(UserContext) as UserContextType;

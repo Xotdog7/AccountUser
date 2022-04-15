@@ -11,7 +11,7 @@ const ActorItem: FC<Props> = ({ actor }) => {
 
   return (
     <div className={style.item}>
-  <img src={actor.image_path} alt="" />
+      <img src={actor.image_path} alt="" />
       <span>{actor.name}</span>
       <span>Рейтинг {actor.rating}</span>
       <span>Second name: {existName} </span>

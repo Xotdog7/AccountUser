@@ -2,7 +2,7 @@ import React, { FC, useContext } from "react";
 import {
   UserContext,
   UserContextType,
-} from "../../../Context/userHW5/UserContext";
+} from "../../Context/userHW5/UserContext";
 import style from "./Modal.module.scss";
 
 const ModalInfo = () => {

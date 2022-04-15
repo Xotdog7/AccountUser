@@ -15,6 +15,17 @@ const Menu = () => {
           Film
         </Link>
       </li>
+      <span>Homework7</span>
+      <li>
+        <Link className={style.none} to="/students">
+          Student
+        </Link>
+      </li>
+      <li>
+        <Link className={style.none} to="/">
+          Facultet
+        </Link>
+      </li>
     </div>
   );
 };

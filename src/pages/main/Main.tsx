@@ -1,18 +1,14 @@
 import React from "react";
-import Content from "../../components/Content/Content";
-import Navbar from "../../components/NavBar/Navbar";
+import Login from "../../components/login/Login";
+import Content from "../content/Content";
+import Navbar from "../navbar/Navbar";
 import "./Main.scss";
 const Main = () => {
-
-  
-  
   return (
-    <>
-      <div className="main">
-        <Navbar />
-        <Content />
-      </div>
-    </>
+    <div className="main">
+      <Navbar />
+      <Content />
+    </div>
   );
 };
 

@@ -1,3 +1,9 @@
+.movieRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
 .itemsRow {
   display: flex;
   justify-content: space-around;
@@ -8,7 +14,7 @@
   background-color: #ebdcb2;
   width: 250px;
   border-radius: 10px;
-  border: 1.8px solid #C9A66B;
+  border: 1.8px solid #c9a66b;
   text-align: center;
   padding: 15px 0;
   display: flex;

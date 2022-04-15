@@ -14,10 +14,12 @@ export const useData = () => {
         const actorsData = await getActors();
         setMovies(moviesData);
         setActors(actorsData);
-      } catch (e) {console.log(e);
+      } catch (e) {
+        console.log(e);
       }
-    };getData()
-  } , []);
+    };
+    getData();
+  }, []);
 
   return {
     movies: movies,

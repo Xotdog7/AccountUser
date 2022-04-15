@@ -1,5 +1,9 @@
 import { ReactChild, ReactNode } from "react";
 
+export interface PropsChildren {
+  children: ReactNode;
+}
+
 export interface IState {
   movies: Movie[];
   actors: Actor[];
@@ -29,6 +33,13 @@ export interface User {
   avatar?: string;
 }
 
-export interface PropsChildren {
-  children: ReactNode;
+export interface Course {
+  name: string;
+}
+export interface Student {
+  id: string;
+  firstName: string;
+  lastName: string;
+  score: number;
+  courses: Course[] ;
 }

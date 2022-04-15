@@ -1,4 +1,5 @@
 import React, { useContext } from "react";
+
 import { Movie } from "../../../types";
 import style from "../Content.module.scss";
 
@@ -9,14 +10,16 @@ type Props = {
 
 const MoviesList: React.FC<Props> = ({ movies }) => {
   const listMovie = movies.map((movie) => (
-    <MovieItem key={movie.id} movie={movie} />
+    <MovieItem key={movie.id } movie={movie} />
   ));
 
   return (
     <div>
-      <div className={style.itemsRow}>{listMovie}</div>
 
-      <h1>Favorite film:</h1>
+
+      <h3>Home Work 6. Worked with useEffect and Axios</h3>
+      <span>Done hover video</span>
+      <div className={style.itemsRow}>{listMovie}</div>
     </div>
   );
 };
