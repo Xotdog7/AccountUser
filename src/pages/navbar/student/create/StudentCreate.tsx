@@ -4,19 +4,15 @@ import StudentForm from "../../../../components/Content/form/StudentForm";
 import { createStudent } from "../../../../services/student";
 import { Student } from "../../../../types";
 
-
 const StudentCreate = () => {
   const navigate = useNavigate();
 
-
-  const onFormSubmit = (data: Partial<Student> ) => {
-    createStudent(data)
-      .then((res) => {
-        if (res.id) {
-          navigate("/students");
-        }
-      })
-   
+  const onFormSubmit = (data: Partial<Student>) => {
+    createStudent(data).then((res) => {
+      if (res.id) {
+        navigate("/students");
+      }
+    });
   };
 
   return (

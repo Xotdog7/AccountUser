@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { deleteStudent, getStudents } from "../../../../services/student";
 import { Student } from "../../../../types";
-import style from "./Student.module.scss";
+import style from "../../Navbar.module.scss";
 
 const StudentsList = () => {
   const [students, setStudents] = useState<Student[]>([]);
@@ -21,7 +21,8 @@ const StudentsList = () => {
 
   return (
     <div className={style.studentMain}>
-      <h2>Students</h2>
+      <h3>Homework 8. Button deleting & Course editing </h3>
+      <h2>Student</h2>
       <Link to="/students/create">Create</Link>
       <table className={style.styledTable}>
         <thead>
@@ -51,7 +52,9 @@ const StudentsList = () => {
                 <div>
                   <Link to={`/students/edit/${student.id}`}>Edit</Link>
                 </div>
-                <button onClick={() => deleteClick(student.id)}>Удалить</button>
+                <Link to={`/students/`} onClick={() => deleteClick(student.id)}>
+                  Delete
+                </Link>
               </td>
             </tr>
           ))}

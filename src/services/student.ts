@@ -1,7 +1,7 @@
-import { Student } from './../types';
-import axios from 'axios';
+import { Student } from "./../types";
+import axios from "axios";
 
-const API_ROOT = 'https://ca-api.witharts.kz';
+const API_ROOT = "https://ca-api.witharts.kz";
 
 export const getStudents = () => {
   return axios.get<Student[]>(`${API_ROOT}/students`).then((res) => res.data);
@@ -25,8 +25,8 @@ export const editStudent = (id: string, data: Partial<Student>) => {
     .then((res) => res.data);
 };
 
-export const deleteStudent = (id:string ) => {
-    return axios
+export const deleteStudent = (id: string) => {
+  return axios
     .delete<Student>(`${API_ROOT}/students/${id}`)
     .then((res) => res.data);
-} 
+};

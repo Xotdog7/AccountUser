@@ -20,10 +20,10 @@ export interface Movie {
 
 export interface Actor {
   objectID: string;
-  name: string| undefined;
-  rating: number| undefined;
-  alternative_name: string| undefined;
-  image_path: string| undefined;
+  name: string | undefined;
+  rating: number | undefined;
+  alternative_name: string | undefined;
+  image_path: string | undefined;
 }
 
 export interface User {
@@ -41,5 +41,12 @@ export interface Student {
   firstName: string;
   lastName: string;
   score: number;
-  courses: Course[] ;
+  courses: Course[];
+}
+
+export interface Facultiet {
+  id: string;
+  name: string;
+  createdAt: string;
+  updatedAt: string;
 }

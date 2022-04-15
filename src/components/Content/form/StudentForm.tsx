@@ -31,7 +31,7 @@ const StudentForm: React.FC<Props> = ({ initialValues, onSubmit }) => {
     };
   };
 
-  const changeField3 = (index?: number) => {
+  const changeCourse = (index?: number) => {
     return (e: any) => {
       setValues((v) => ({
         ...v,
@@ -104,7 +104,7 @@ const StudentForm: React.FC<Props> = ({ initialValues, onSubmit }) => {
                 key={idx}
                 type={"text"}
                 value={course?.name}
-                onChange={changeField3(idx)}
+                onChange={changeCourse(idx)}
               />
             </div>
           ))}

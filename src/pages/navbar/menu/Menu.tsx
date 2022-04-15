@@ -5,6 +5,7 @@ import style from "../Navbar.module.scss";
 const Menu = () => {
   return (
     <div>
+      <span>Homework6</span>
       <li>
         <Link className={style.none} to="/actor">
           Actor
@@ -22,7 +23,7 @@ const Menu = () => {
         </Link>
       </li>
       <li>
-        <Link className={style.none} to="/">
+        <Link className={style.none} to="/faculties">
           Facultet
         </Link>
       </li>
